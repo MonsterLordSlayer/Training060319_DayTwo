@@ -1,0 +1,34 @@
+1) Four main pillars of OOP:
+  1. Abstraction: This is the hiding the internal implementation details and only showing essential features.
+  2. Inheritance: A class can inherit from another class, which allows it to use all the functions which are defined in that another class. The class which is inherited from, is called the base class, and the class which inherits the code from the base class is called a derived class. This allows programmer to save code.
+  3. Encapsulation: This is the showing and hiding of certain property in an object. Most object-oriented languages implement encapsulation based on private property, related to special methods called getters and setters, which will return and set the property value to prevents direct access to the object's property.
+  4. Polymorphism: This allows us to change and override existing functions with the same name from a different class.This also allows programmer to save code.
+
+2) SOLID principle:
+  S(Single-responsibility Principle): A class should have one and only one reason to change, meaning that a class should have only one job.
+  O(Open-closed Principle): A class should be extendable without having to modify the class.
+  L(Liskov substitution principle): All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
+  I(Interface segregation principle): Object should be force to implement or depend on an interface it does not use.
+  D(Dependency Inversion principle): High level module must not depend on the low level module, but they should depend on abstractions. Basically it means a class should not depend on another class.
+
+3)
+  Hashtable does not allow null keys or values, but hash map does. Hashtable is synchronized, but HashMap is not, which makes Hashmap performs better but not threadsafe.
+  The main difference between List and ArrayList is that List is an interface while ArrayList is a class, meaning ArrayList implements List and is a subtype of List.
+  Array is a fixed size data structure while ArrayList is not. Array can contain both primitive data types as well as objects of a class depending on the definition of the array, but ArrayList only supports object , not primitive data types. ArrayList doesn't store object at contiguous locations.
+  HashSet is implementation of Set Interface while HashMap is an implementation of Map Interface. HashSet does not allow duplicate value. Duplicate keys are not allowed in a map, but a value can be equal to another value with a different key.
+  StringBuffer is thread safe and synchronized whereas StringBuilder is not.
+
+4)
+  You must override hashCode() in every class that overrides equals(). Failure to do so will result in a violation of the general contract for Object.hashCode(), which will prevent your class from functioning properly in conjunction with all hash-based collections, including HashMap, HashSet, and Hashtable. If only equal is overidden, 2 equal objects will be hashed to different buckets as their hashcode is different. This mean the map won't realize that these 2 are equal. If equal is not overidden, map will not be able to find object that is equal to another object.
+
+5)
+  Interface can have only abstract methods. Abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+  Members of a Java interface are public by default. A Java abstract class can have class members like private, protected, etc.
+  Variables declared in a Java interface are by default final. An abstract class may contain non-final variables.
+  Abstract class can have final, non-final, static and non-static variables. Interface has only static and final variables.
+  Interface cannot be extended, only implemented.
+  A Java interface can be implemented using keyword “implements” and abstract class can be extended using keyword “extends”.
+  An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+  
+
+  
