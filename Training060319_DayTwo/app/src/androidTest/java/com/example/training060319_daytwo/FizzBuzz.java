@@ -11,6 +11,8 @@ public class FizzBuzz {
 
         FizzBuzz f=new FizzBuzz();
         f.printfizzbuzz(15);
+        f.printfizzbuzz(3);
+        f.printfizzbuzz(5);
         f.printfizzbuzz(2);
     }
 }

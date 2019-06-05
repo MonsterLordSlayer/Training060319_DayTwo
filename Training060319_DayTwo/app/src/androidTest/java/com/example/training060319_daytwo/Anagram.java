@@ -11,8 +11,7 @@ public class Anagram {
         char array2[]=word2.toCharArray();
         Arrays.sort(array1);
         Arrays.sort(array2);
-        System.out.println(array1);
-        System.out.println(array2);
+
         for (int i=0;i<word1.length();i++){
             if (array1[i]!=array2[i]) return false;
         }
@@ -21,5 +20,7 @@ public class Anagram {
     public static void main(String[] args){
         Anagram a=new Anagram();
         System.out.println(a.checkAnagrams("abc3defg","bca4fedg"));
+
+        System.out.println(a.checkAnagrams("abc3defg","bca3fedg"));
     }
 }
