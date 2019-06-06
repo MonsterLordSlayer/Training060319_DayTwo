@@ -1,7 +1,7 @@
 # Training060319_DayTwo
-![Multiplication Table](Screen Shot 2019-06-05 at 12.43.00 PM.png?raw=true)
-![FizzBuzz](Screen Shot 2019-06-05 at 12.45.10 PM.png?raw=true)
-![Anagram](Screen Shot 2019-06-05 at 12.45.26 PM.png?raw=true)
-![Palindrome](Screen Shot 2019-06-05 at 12.45.41 PM.png?raw=true)
-![Duplicate](Screen Shot 2019-06-05 at 12.46.07 PM.png?raw=true)
+![Multiplication Table](https://github.com/MonsterLordSlayer/Training060319_DayTwo/blob/master/Screen%20Shot%202019-06-05%20at%2012.43.00%20PM.png)
+![FizzBuzz](https://github.com/MonsterLordSlayer/Training060319_DayTwo/blob/master/Screen%20Shot%202019-06-05%20at%2012.45.10%20PM.png)
+![Anagram](https://github.com/MonsterLordSlayer/Training060319_DayTwo/blob/master/Screen%20Shot%202019-06-05%20at%2012.45.26%20PM.png)
+![Palindrome](https://github.com/MonsterLordSlayer/Training060319_DayTwo/blob/master/Screen%20Shot%202019-06-05%20at%2012.45.41%20PM.png)
+![Duplicate](https://github.com/MonsterLordSlayer/Training060319_DayTwo/blob/master/Screen%20Shot%202019-06-05%20at%2012.46.07%20PM.png)
 
